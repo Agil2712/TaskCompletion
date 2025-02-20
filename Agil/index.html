@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><span>Bundle & Save</span></h2>
+        <div class="option" onclick="selectOption(1)">
+            <input type="radio" name="bundle" id="pair1" value="10" onclick="selectOption(1)">
+            <label for="pair1"><strong>1 Pair</strong> <span class="discount">10% Off</span>
+                <span class="price">$10.00 USD <br><span class="strike">$24.00 USD</span></span></label>
+            <div class="details">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Size</td>
+                        <td>Color</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="option most-popular" onclick="selectOption(2)">
+            <div class="ribbon">MOST POPULAR</div>
+            <input type="radio" name="bundle" id="pair2" value="20" onclick="selectOption(2)">
+            <label for="pair2">
+                <strong>2 Pair</strong> <span class="discount">20% Off</span>
+                <span class="price">$18.00 USD <span class="strike">$24.00 USD</span></span></label>
+            <div class="details">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Size</td>
+                        <td>Color</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <div class="option" onclick="selectOption(3)">
+            <input type="radio" name="bundle" id="pair3" value="30" onclick="selectOption(3)">
+            <label for="pair1"><strong>3 Pair</strong> <span class="discount">30% Off</span><span class="price">$24.00
+                    USD <span class="strike">$48.00 USD</span></span>
+            </label>
+            <div class="details">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Size</td>
+                        <td>Color</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select name="size">
+
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="color">
+
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="delivery">Free Delivery<span class="total"> Total : $<span id="total">0</span></span></div>
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
